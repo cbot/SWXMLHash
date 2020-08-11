@@ -33,6 +33,11 @@ let package = Package(
         .library(
             name: "SWXMLHash",
             targets: ["SWXMLHash"]
+        ),
+        .library(
+            name: "SWXMLHashDynamic", 
+            type: .dynamic, 
+            targets: ["SWXMLHash"]
         )
     ],
     targets: [
